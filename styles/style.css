@@ -1,3 +1,4 @@
+  /* font import */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
 /* declare variable */
 :root{
@@ -166,6 +167,7 @@ nav ul li a{
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
+/* poster using position*/
 .poster{
     width:150px;
     height: 80px;
@@ -196,11 +198,11 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     border: 1px solid var(--golden);
-    
     border-radius: 8px;
     width: 150px;
     height: 150px;
 }
+/* transform */
 .experience:hover img{
     transform: rotate(90deg);
     transition: 1s;
@@ -263,7 +265,7 @@ footer{
     text-align: center;
 }
 /* media queries for mobile device */
-@media only screen and (max-width:557px){
+@media only screen and (max-width:576px){
     .container{
         width:100%;
     }
@@ -287,11 +289,9 @@ footer{
         object-position:center;
     }
     .feature-multi-image{
-        
         grid-template-columns: repeat(1,1fr);
         gap:20px;
         padding: 0 20px;
-        
     }
     .feature-description{
         margin-right: 120px;
