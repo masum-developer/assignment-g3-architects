@@ -133,6 +133,14 @@ border-radius: 8px;
 .feature-bottom-start{
     width:45%
 }
+.icon-heading{
+    display: flex;
+}
+.fa-grip-lines-vertical{
+    font-size: 60px;
+    color:var(--golden);
+    margin-right: 10px;
+}
 .feature-bottom-image{
     width: 55%;
     position: relative;
