@@ -178,7 +178,6 @@ nav ul li a{
     position: absolute;
     bottom:0;
     left:0;
-
 }
 /* fact start */
 .fact-heading{
@@ -229,7 +228,6 @@ nav ul li a{
     text-align: center;
     margin:20px 0;
 }
-
 /* update and queries */
 .and{
     color:var(--golden);
@@ -259,7 +257,6 @@ form>input,textarea{
 footer{
     background-color: var(--banner-color);
     padding:30px 50px;
-    
 }
 .footer-paragraph{
     text-align: center;
